@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans m-0 p-0 box-border">
+
+<!----------------------------------------------------------------------NAVBAR---------------------------------------------------------------------------------->
+    <section id="navbar">
+        <div class="h-[18vh] w-full flex justify-center items-center">
+            <div class="flex justify-center items-center w-1/5">
+                <h2 class="text-base md:text-lg lg:text-3xl font-bold">pl</h2>
+                <div class="relative flex justify-center items-center">
+                    <div class="bg-orange-500 w-6 h-6 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-full relative"></div>
+                    <div
+                        class="absolute border-t-transparent border-b-transparent border-l-white border-t-[7px] border-b-[7px] md:border-t-[10px] md:border-b-[10px] lg:border-t-[12px] lg:border-b-[12px] border-l-[12px] md:border-b-[16px] lg:border-1-[16px]">
+                    </div>
+                </div>
+                <h2 class="text md:text-lg lg:text-3xl font-bold">y</h2>
+            </div>
+            <div class="w-3/5 flex justify-evenly">
+                <a href="home" class="text-black no-underline text-sm md:text-sm lg:text-lg font-bold">Home</a>
+                <a href="Trending" class="text-black no-underline text-sm md:text-sm lg:text-lg font-bold">Trending</a>
+                <a href="Collections" class="text-black no-underline text-sm md:text-sm lg:text-lg font-bold">Collections</a>
+                <a href="Categories" class="text-black no-underline text-sm md:text-sm lg:text-lg font-bold">Categories</a>
+                <a href="Contact" class="text-black no-underline text-sm md:text-sm lg:text-lg font-bold">Contact</a>
+                <svg class=" md:hidden h-6" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                </svg>
+            </div>
+            <div class="w-1/5 flex justify-center items-center">
+                <button
+                    class="h-[6vh] w-[10vw] bg-yellow-400 rounded-full px-4 py-2 text-white font-bold border-none text-sm md:p-0 font-light lg: pb-6 text-base font-bold">Sign Up</button>
+            </div>
+        </div>
+    </section>
+
+<!-----------------------------------------------------------------------CONTAINER-------------------------------------------------------------------------------->
+
+    <section id="container" class="h-[90vh] w-full flex flex-col md:flex-row lg: flex justify-center items-center">
+        <div
+            class="w-full md:w-[55%] flex flex-col justify-start items-start text-left px-8 py-16 md:px-20 lg:px-28 md:py-24 lg:py-32">
+            <h2 class="text-lg md:text-xl lg:text-2xl mb-2">CREATE PLAYLIST & SHARE IT WITH YOUR FRIENDS</h2>
+            <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold mb-2">MUSIC FOR YOUR CURRENT MOOD</h1>
+            <p class="text-sm md:text-base lg:text-lg font-light text-gray-600 mb-8">Discover the perfect soundtrack for
+                every moment with our 'Music for Your Current Mood' section. Whether you're feeling upbeat, reflective,
+                or somewhere in between, explore curated playlists and tunes tailored to match your mood.</p>
+            <div class="flex gap-4">
+                <button
+                    class="h-[6vh] w-[20vw] md:w-[15vw] lg:w-[12vw] bg-yellow-400 rounded-full px-4 py-2 text-white font-bold border-none text-sm md:text-sm font-light lg:text-base font-bold">BUY NOW</button>
+                <button
+                    class="h-[6vh] w-[20vw] md:w-[15vw] lg:w-[12vw] bg-yellow-400 rounded-full px-4 py-2 text-white font-bold border-none text-sm md:text-sm font-light lg:text-base font-bold">Read More</button>
+            </div>
+        </div>
+        <div class="w-full md:w-[45%] flex justify-center items-center">
+            <img src="images/music.jpg" alt="" class="h-[50vh] w-[50vh] md:h-[60vh] md:w-[60vh] lg:h-[70vh] lg:w-[70vh]">
+        </div>
+    </section>
+
+<!-------------------------------------------------------------------------FOOTER-------------------------------------------------------------------------------->
+
+    <section id="footer" class="bg-yellow-400 md:h-[50vh] w-full flex flex-col items-center pt-16 md: h-[20vh] pt-20 lg:pt-24">
+        <img class="h-[80px] md:h-[100px] lg:h-[115px] pb-4 md:pb-6 lg:pb-8" src="images/mic.png" alt="">
+        <div class="flex">
+            <img src="images/faceboook.jpg" alt="" class="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 rounded-lg mr-2 mb-5">
+            <img src="images/twitter.png" alt="" class="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 rounded-lg mr-2 mb-5">
+            <img src="images/pintrest.png" alt="" class="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 rounded-lg mr-2 mb-5">
+            <img src="images/linkedin.png" alt="" class="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 rounded-lg mr-2 mb-5">
+        </div>
+        <p class="text-sm md:text-base lg:text-lg font-light text-white">Copyright © 2024 Web Design Mastery. All rights
+            reserved.</p>
+    </section>
+</body>
+
+</html>
